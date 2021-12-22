@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix booking_backend && npm run build --prefix booking_backenend"
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
