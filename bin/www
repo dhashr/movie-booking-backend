@@ -25,7 +25,7 @@ var server = http.createServer(app);
 /**
  * Listen on provided port, on all network interfaces.
  */
-let movieDBURL = 'mongodb+srv://Password12:Password12@dhashdb.wkoep.mongodb.net/MovieDB?retryWrites=true&w=majority'
+let movieDBURL = 'mongodb+srv://<>:<>@dhashdb.wkoep.mongodb.net/MovieDB?retryWrites=true&w=majority'
 mongoose.connect(movieDBURL)
 .then(()=>{
   server.listen(port,()=>(`Server is hosting in ${port}`));
